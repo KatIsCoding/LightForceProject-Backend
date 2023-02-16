@@ -38,3 +38,13 @@ To get a local copy up and running follow these simple example steps.
 - Github: [@KatIsCoding](https://github.com/KatIsCoding)
 - Twitter: [@Fabrizio](https://twitter.com/fabriziogr211)
 
+## Notes
+
+- This project was built with the intention of being deployed in Render. If you want to deploy it in another platform you are free to do as long as you have the correct setup.
+
+- The testing suite for this project is not complete. I will be adding more tests in the future.
+
+## Acknowledgments
+
+- LightForce
+
