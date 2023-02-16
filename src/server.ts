@@ -1,9 +1,10 @@
 import express from "express";
+import cors from "cors";
+import Router from "./server.controller";
 const app = express();
-const port = 9000;
-app.get("/", (req, res) => {
-  res.send("Server is up and running!");
-});
-app.listen(port, () => {
-  console.log(`Server is listening on ${port}`);
-});
+
+app.use(cors());
+app.use(express.json());
+
+Router(app);
+export default app;
