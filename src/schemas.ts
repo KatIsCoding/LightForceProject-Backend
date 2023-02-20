@@ -31,7 +31,7 @@ export const StartGameSchema = z.object({
 export const BuyTokensSchema = z.object({
   body: z.object({
     username: z.string(),
-    tokens: z.number(),
+    tokens: z.number().min(1),
   }),
 });
 
